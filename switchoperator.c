@@ -10,18 +10,18 @@ int main()
 	switch(ch)
 	{
 		case'+':
-			printf("result=%d",a+b);
+			printf("result=%d",a+b);//add
 			break;
 			case'-':
-				printf("substraction=%d",a-b);
+				printf("substraction=%d",a-b);//substract
 				break;
 				case'*':
-					printf("multiplication=%d",a*b);
+					printf("multiplication=%d",a*b);//multiplication
 					break;
 					case'/':
 						if(b!=0)
 						{
-							printf("division=%d",a/b);
+							printf("division=%d",a/b);//division
 						}
 						else
 						{
